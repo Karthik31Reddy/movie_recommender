@@ -1,5 +1,8 @@
-import requests
 import os
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()  # Load variables from .env
 
 API_KEY = os.getenv("3013dfaaa9655ccc306cacb6692e2448")  # or just hardcode for dev use
 
